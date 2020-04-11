@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Template:     twentytwenty
+ Text Domain:  twentytwentychild
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-title,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Fonts ------------------------------------- */
+
+.entry-content p,
+.entry-content ol,
+.entry-content ul,
+.entry-content dl,
+.entry-content dt {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.widget_text p,
+.widget_text ol,
+.widget_text ul,
+.widget_text dl,
+.widget_text dt,
+.widget-content .rssSummary {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Button --------------------------------------*/
+
+.sticky-button {
+    position: -webkit-sticky; /* Safari */  
+    position: fixed;
+    bottom: 0;
+}
+
+.wp-block-buttons {
+    overflow: visible !important;
+    align-items:stretch;
+    background-color: brown;
+    height: 3000px;
+    overflow-x: visible;
+} 

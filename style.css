@@ -38,12 +38,12 @@ h1, h2, h3, h4, h5, h6 {
     position: -webkit-sticky; /* Safari */  
     position: fixed;
     bottom: 0;
+    background-color: #e8819c;
+    z-index: 9999999999;
+    width: 90%;
 }
 
 .wp-block-buttons {
     overflow: visible !important;
-    align-items:stretch;
-    background-color: brown;
-    height: 3000px;
     overflow-x: visible;
 } 

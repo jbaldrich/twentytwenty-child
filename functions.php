@@ -11,7 +11,6 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
-    wp_enqueue_style( 'google-font-confortaa', '//fonts.googleapis.com/css?family=Comfortaa:400,600,700|Open+Sans&display=swap', array(), null );
 }
 
 

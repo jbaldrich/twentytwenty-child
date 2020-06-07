@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.site-description,
 .site-title,
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Comfortaa', 'Helvetica Neue', 'Open Sans', sans-serif !important;

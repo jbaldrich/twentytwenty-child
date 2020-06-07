@@ -72,4 +72,14 @@ h1, h2, h3, h4, h5, h6 {
 .wp-block-buttons {
     overflow: visible !important;
     overflow-x: visible;
-} 
+}
+
+/* Header --------------------------------------*/
+.entry-header {
+    padding: 1rem 0 !important;
+}
+
+/* Menu -----------------------------------------*/
+.mobile-nav-toggle {
+    visibility: hidden;
+}

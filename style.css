@@ -100,11 +100,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* FacetWP --------------------------------------*/
 .facetwp-type-checkboxes {
-    display: flex;
     font-family: 'Open Sans', sans-serif;
 }
 
-.facetwp-checkbox {
-    margin-right: 20px;
-    word-break: normal;
+.facetwp-checkbox .facetwp-expand {
+    float: none !important;
+}
+
+.facetwp-counter {
+    display: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.grid-container > article {
+    padding: 1rem;
 }
